@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <ProjectGuid>{3AA9C755-240A-4BD4-A288-CD05648220A1}</ProjectGuid>
-    <TargetFramework>net40</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <AssemblyTitle>ScintillaDiff.SUO</AssemblyTitle>
     <Product>ScintillaDiff.SUO</Product>
     <Copyright>Copyright © VPKSoft 2020</Copyright>
@@ -58,7 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="DiffPlex" Version="1.6.3" />
-    <PackageReference Include="unofficial.ScintillaNET" Version="3.6.60" />
+    <PackageReference Include="fernandreu.ScintillaNET" Version="4.0.4" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Enumerations\" />

@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net40</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <AssemblyTitle>ScintillaDiff</AssemblyTitle>
     <Company>VPKSoft</Company>
     <Product>ScintillaDiff</Product>
@@ -72,6 +72,6 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="DiffPlex" Version="1.6.3" />
-    <PackageReference Include="jacobslusser.ScintillaNET" Version="3.6.3" />
+    <PackageReference Include="fernandreu.ScintillaNET" Version="4.0.4" />
   </ItemGroup>
 </Project>
